@@ -29,7 +29,7 @@ const Navbar = () => {
 		 <ul className='flex items-center hidden space-x-8 lg:flex'>
 		   <li>
 			<Link
-			  to='/home'
+			  to='/'
 			  aria-label='Home'
 			  title='Home'
 			  className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
@@ -39,22 +39,22 @@ const Navbar = () => {
 		   </li>
 		   <li>
 			<Link
-			  to='/shop'
-			  aria-label='Shop'
-			  title='Shop'
+			  to='/statistics'
+			  aria-label='Statistics'
+			  title='Statistics'
 			  className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
 			>
-			  Shop
+			  Statistics
 			</Link>
 		   </li>
 		   <li>
 			<Link
-			  to='/about'
-			  aria-label='About Us'
-			  title='About Us'
+			  to='/blogs'
+			  aria-label='Blogs'
+			  title='Blogs'
 			  className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
 			>
-			  About Us
+			  Blogs
 			</Link>
 		   </li>
 		 </ul>
@@ -124,31 +124,32 @@ const Navbar = () => {
 				 <ul className='space-y-4'>
 				   <li>
 					<Link
-					  to='/shop'
-					  aria-label='Shop'
-					  title='Shop'
+					  to='/'
+					  aria-label='Home'
+					  title='Home'
 					  className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
 					>
-					  Shop
+					  Home
 					</Link>
 				   </li>
 				   <li>
 					<Link
-					  to='/cart'
-					  aria-label='Cart'
-					  title='Cart'
+					  to='/statistics'
+					  aria-label='Statistics'
+					  title='Statistics'
 					  className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
 					>
+					  Statistics
 					</Link>
 				   </li>
 				   <li>
 					<Link
-					  to='/about'
-					  aria-label='About Us'
-					  title='About Us'
+					  to='/blogs'
+					  aria-label='Blogs'
+					  title='BLogs'
 					  className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
 					>
-					  About Us
+					  Blogs
 					</Link>
 				   </li>
 				 </ul>

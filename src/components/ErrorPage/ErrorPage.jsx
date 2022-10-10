@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
@@ -14,7 +15,9 @@ const ErrorPage = () => {
                 Sorry about that! The page you are looking for could not be found. Please visit our hompage to get where you need
                 to go.
               </p>
+              <Link to="/">
               <button type="button" className="px-8 py-3 font-semibold rounded-full bg-gray-800 text-gray-100">Home</button>
+              </Link>
             </div>
           </div>
           <div>
