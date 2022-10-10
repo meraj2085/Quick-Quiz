@@ -2,21 +2,19 @@ import React from "react";
 
 const ErrorPage = () => {
   return (
-    <div class="lg:px-24 lg:py-24 md:py-20 md:px-44 px-4 py-24 items-center flex justify-center flex-col-reverse lg:flex-row md:gap-28 gap-16">
+    <div class="lg:px-24 lg:py-24 md:py-20 md:px-44 px-5 mt-7 py-24 items-center flex justify-center flex-col-reverse lg:flex-row md:gap-28 gap-16">
       <div class="xl:pt-24 w-full xl:w-1/2 relative pb-12 lg:pb-0">
         <div class="relative">
           <div class="absolute">
             <div class="">
-              <h1 class="my-2 text-gray-800 font-bold text-2xl">
-                Looks like you've found the doorway to the great nothing
+              <h1 class="my-2 text-gray-800 font-bold text-4xl">
+              This page does not exist
               </h1>
               <p class="my-2 text-gray-800">
-                Sorry about that! Please visit our hompage to get where you need
+                Sorry about that! The page you are looking for could not be found. Please visit our hompage to get where you need
                 to go.
               </p>
-              <button class="sm:w-full lg:w-auto my-2 border rounded md py-4 px-8 text-center bg-indigo-600 text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">
-                Take me there!
-              </button>
+              <button type="button" className="px-8 py-3 font-semibold rounded-full bg-gray-800 text-gray-100">Home</button>
             </div>
           </div>
           <div>
