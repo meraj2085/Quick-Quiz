@@ -1,8 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 const TopicsCard = ({ quiz }) => {
   const { id, name, logo, total } = quiz;
+
+
   return (
     <div class="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16">
       <div class="px-6">
@@ -35,7 +37,9 @@ const TopicsCard = ({ quiz }) => {
         <div class="mt-6 py-6 border-t border-slate-200 text-center">
           <div class="flex flex-wrap justify-center">
             <div class="w-full px-4">
+            <Link to={`/quizzes/${id}`}>
             <button type="button" className="px-4 py-2 font-semibold rounded-full border-2 border-gray-800 text-gray-800 hover:border-none hover:bg-gray-800 hover:text-gray-100">Start Quiz</button>
+            </Link>
             </div>
           </div>
         </div>
