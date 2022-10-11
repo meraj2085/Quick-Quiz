@@ -1,5 +1,8 @@
 This project is created by react. The project name is Quick Quiz. It is a quiz website that contains quizzes on react, javaScript, css and git. 
 
+
+## Project Name: Quick Quiz
+
 • There are three routes in this website. Home, statistics, blog.
 
 • In home component there is navbar, hero page and the quiz topics.
