@@ -10,44 +10,45 @@ const Blogs = () => {
         <div className="divide-y divide-gray-300">
           <div className="py-6 space-y-2 md:grid md:grid-cols-12 md:gap-8 md:space-y-0">
             <h3 className="font-semibold md:col-span-5">
-              Optio maiores eligendi molestiae totam dolores similique?
+              What is the purpose of react router?
             </h3>
             <p className="md:pl-0 md:col-span-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              neque in fugiat magni, quas animi enim veritatis deleniti ex.
-              Impedit.
+              React Router and dynamic client-side routing, allows us to build a
+              single-page web application with navigation without the page
+              refreshing as the user navigates. React Router uses component
+              structure to call components, which display the appropriate
+              information.
             </p>
           </div>
           <div className="py-6 space-y-2 md:grid md:grid-cols-12 md:gap-8 md:space-y-0">
             <h3 className="font-semibold md:col-span-5">
-              Optio maiores eligendi molestiae totam dolores similique?
+              How does context api works?
             </h3>
             <p className="md:pl-0 md:col-span-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              aspernatur quae, eos explicabo odit minima libero veniam similique
-              quibusdam doloribus facilis ipsa accusantium vel maiores corrupti!
-              Libero voluptate a doloribus?
+              The React Context API is a way for a React app to effectively
+              produce global variables that can be passed around. This is the
+              alternative to "prop drilling" or moving props from grandparent to
+              child to parent, and so on. Context is also touted as an easier,
+              lighter approach to state management. React.createContext() is all
+              you need. It returns a consumer and a provider. Provider is a
+              component that as it's names suggests provides the state to its
+              children. It will hold the "store" and be the parent of all the
+              components that might need that store. Consumer as it so happens
+              is a component that consumes and uses the state.
             </p>
           </div>
           <div className="py-6 space-y-2 md:grid md:grid-cols-12 md:gap-8 md:space-y-0">
             <h3 className="font-semibold md:col-span-5">
-              Modi dolorem veritatis culpa quos consequuntur beatae itaque
-              excepturi perspiciatis?
+              Tell something about useref hook.
             </h3>
             <p className="md:pl-0 md:col-span-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-              voluptates aspernatur dolores in consequatur doloremque inventore
-              reprehenderit, consequuntur perspiciatis architecto.
-            </p>
-          </div>
-          <div className="py-6 space-y-2 md:grid md:grid-cols-12 md:gap-8 md:space-y-0">
-            <h3 className="font-semibold md:col-span-5">
-              Magni reprehenderit possimus debitis?
-            </h3>
-            <p className="md:pl-0 md:col-span-7">
-              Sed consectetur quod tenetur! Voluptatibus culpa incidunt
-              veritatis velit quasi cupiditate unde eaque! Iure, voluptatibus
-              autem eaque unde possimus quae.
+              useRef returns a mutable ref object whose .current property is
+              initialized to the passed argument (initialValue). The returned
+              object will persist for the full lifetime of the component.
+              Essentially, useRef is like a “box” that can hold a mutable value
+              in its .current property. However, useRef() is useful for more
+              than the ref attribute. It's handy for keeping any mutable value
+              around.
             </p>
           </div>
         </div>
