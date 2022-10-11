@@ -8,7 +8,7 @@ const Quizzes = () => {
      console.log(quizzes)
 
      return (
-          <div className='grid grid-cols-1 gap-10 mx-56 mt-7'>
+          <div className='grid grid-cols-1 gap-10 lg:mx-56 md:mx-24 mx-5 mt-7'>
                {
                     questions.map(question => <QuizzesCard questions={question} id={question.id} key={question.id}></QuizzesCard>)
                }
