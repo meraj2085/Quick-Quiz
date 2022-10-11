@@ -1,5 +1,7 @@
 import React from "react";
 import SingleOption from "./SingleOption/SingleOption";
+import { toast } from 'react-toastify'
+
 
 const QuizzesCard = ({ questions, id }) => {
   const { options, question, correctAnswer } = questions;
@@ -7,8 +9,10 @@ const QuizzesCard = ({ questions, id }) => {
      const handleCorrectAns = (singleAns) =>{
           if(singleAns === correctAnswer){
                console.log('correct')
+               toast.success('Answer correct!', { autoClose: 500 })
           } else{
                console.log('incorrect')
+               toast.warning('Answer wrong!', { autoClose: 500 })
           }
      }
 
